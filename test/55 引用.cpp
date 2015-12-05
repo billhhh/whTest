@@ -1,14 +1,22 @@
 #include <iostream>
 using namespace std;
 
+class A
+{
+public:
+	int &mem;
+	A(int a):mem(a){};
+
+protected:
+private:
+};
+
 int main() 
 {
 	int a=5;
-	int &aa = a;
-	int *aaa;
-	aaa = &aa;
+	A *classa = new A(a);
 
-	*aaa = 4657;
+	classa->mem = 111;
 	cout<<a<<endl;
 
 	return 0; 

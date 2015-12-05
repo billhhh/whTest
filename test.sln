@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test", "test\test.vcxproj", "{CF1A10FA-B01D-4DA8-BA7B-CF30375C8A57}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test2", "test2\test2.vcxproj", "{2DD0CDD9-EAD4-4867-A4FB-360CF18EA891}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test3", "test3\test3.vcxproj", "{DEB34851-B786-451E-8978-61A76E3CA089}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF1A10FA-B01D-4DA8-BA7B-CF30375C8A57}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CF1A10FA-B01D-4DA8-BA7B-CF30375C8A57}.Debug|Win32.Build.0 = Debug|Win32
+		{CF1A10FA-B01D-4DA8-BA7B-CF30375C8A57}.Debug|x64.ActiveCfg = Debug|x64
+		{CF1A10FA-B01D-4DA8-BA7B-CF30375C8A57}.Debug|x64.Build.0 = Debug|x64
+		{CF1A10FA-B01D-4DA8-BA7B-CF30375C8A57}.Release|Win32.ActiveCfg = Release|Win32
+		{CF1A10FA-B01D-4DA8-BA7B-CF30375C8A57}.Release|Win32.Build.0 = Release|Win32
+		{CF1A10FA-B01D-4DA8-BA7B-CF30375C8A57}.Release|x64.ActiveCfg = Release|x64
+		{CF1A10FA-B01D-4DA8-BA7B-CF30375C8A57}.Release|x64.Build.0 = Release|x64
+		{2DD0CDD9-EAD4-4867-A4FB-360CF18EA891}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2DD0CDD9-EAD4-4867-A4FB-360CF18EA891}.Debug|Win32.Build.0 = Debug|Win32
+		{2DD0CDD9-EAD4-4867-A4FB-360CF18EA891}.Debug|x64.ActiveCfg = Debug|Win32
+		{2DD0CDD9-EAD4-4867-A4FB-360CF18EA891}.Release|Win32.ActiveCfg = Release|Win32
+		{2DD0CDD9-EAD4-4867-A4FB-360CF18EA891}.Release|Win32.Build.0 = Release|Win32
+		{2DD0CDD9-EAD4-4867-A4FB-360CF18EA891}.Release|x64.ActiveCfg = Release|Win32
+		{DEB34851-B786-451E-8978-61A76E3CA089}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DEB34851-B786-451E-8978-61A76E3CA089}.Debug|Win32.Build.0 = Debug|Win32
+		{DEB34851-B786-451E-8978-61A76E3CA089}.Debug|x64.ActiveCfg = Debug|Win32
+		{DEB34851-B786-451E-8978-61A76E3CA089}.Release|Win32.ActiveCfg = Release|Win32
+		{DEB34851-B786-451E-8978-61A76E3CA089}.Release|Win32.Build.0 = Release|Win32
+		{DEB34851-B786-451E-8978-61A76E3CA089}.Release|x64.ActiveCfg = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
+	EndGlobalSection
+EndGlobal

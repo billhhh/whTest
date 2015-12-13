@@ -5,15 +5,18 @@ using namespace std;
 
 int main() 
 {
+	freopen("input.txt", "r", stdin);
 	double n,m;
 
 	cin>>n;
 	while( cin>>m ) {
 
-		if( 999-m<eps )
+		if( m == 999 )
+		//if( 999-m<eps )
 			break;
 
-		cout<<n-m<<endl;
+		printf("%.2f\n",n-m);
+
 		n=m;
 	}
 

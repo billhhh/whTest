@@ -1,15 +1,19 @@
 #include <iostream>
 using namespace std;
 
-#define GRAGH_LENGTH 180
-#define GRAGH_WIDTH 128
-
-typedef int (Mytype[GRAGH_LENGTH])[GRAGH_WIDTH];
-
 class Test
 {
 public:
-	Mytype a;
+	int a[2][2];
+	void set(int *tmpGragh) {
+		for (int i=0;i<2; ++i){
+
+			for (int j=0;j<2; ++j) {
+
+				a[i][j]=tmpGragh[i*2+j];
+			}
+		}
+	}
 		
 protected:
 
@@ -21,14 +25,11 @@ private:
 
 int main() 
 {
+	int aa[2][2]={{1,2},{3,4}};
 	Test t;
+	t.set(&aa[0][0]);
 
-	cout<<t.a<<endl;
-	cout<<&t.a[0][1]<<endl;
-
-	cout<<t.a[0][1]<<endl;
-	t.a[0][1] = 2;
-	cout<<t.a[179][127]<<endl;
+	cout<<t.a[1][0]<<endl;
 	
 	return 0;
 }

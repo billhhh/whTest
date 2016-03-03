@@ -19,10 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="63 map引用删除问题1.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="63.h" />
+    <ClCompile Include="64 包含多重继承.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{CF1A10FA-B01D-4DA8-BA7B-CF30375C8A57}</ProjectGuid>

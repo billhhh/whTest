@@ -7,12 +7,13 @@ void ShowValue(const int &i) {
 
 int main() 
 {
-	const int j=5;
+	int i=5;
+	const int j=i;
 	void *p=(void *)&j;
 	int *ptr=(int *)p;
 	(*ptr)++;
-	//cout<<*ptr<<endl;
-	ShowValue(j);
+	cout<<j<<endl;
+	//ShowValue(j);
 
 	return 0; 
 }

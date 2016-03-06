@@ -13,7 +13,12 @@ int main()
 
 	x=(y&z); cout<<x<<endl; //按位与，y和z都是3（0011），按位与后是0011（还是3）
 
-	x=(y&&z); cout<<x<<endl; //
+	x=(y&&z); cout<<x<<endl; //直接与运算，y和z都为真，返回1
+
+	y=4;
+	x=(y|z); cout<<x<<endl; //按位或运算，0100和0011或后是0111，即7
+
+	x=(y||z); cout<<x<<endl; //或运算，y为真，z为真，最后为真
 
 	return 0; 
 }

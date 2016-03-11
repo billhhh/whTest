@@ -1,23 +1,51 @@
-D:\PROJECT\NEWTEST\TEST\DEBUG\52 CHAR 128.OBJ
-D:\PROJECT\NEWTEST\TEST\DEBUG\VC110.PDB
-D:\PROJECT\NEWTEST\TEST\DEBUG\53 移位 加解密.OBJ
-D:\PROJECT\NEWTEST\TEST\DEBUG\54 父类 子类析构.OBJ
-E:\BILL GITHUB\WHTEST\TEST\DEBUG\55 引用.OBJ
-E:\BILL GITHUB\WHTEST\TEST\DEBUG\VC110.PDB
-E:\BILL GITHUB\WHTEST\TEST\DEBUG\56 MAP空删除.OBJ
 E:\BILL GITHUB\WHTEST\TEST\DEBUG\57 POJ 2871.OBJ
-D:\PROJECT\NEWTEST\DEBUG\TEST.ILK
-D:\PROJECT\NEWTEST\DEBUG\TEST.EXE
-D:\PROJECT\NEWTEST\DEBUG\TEST.PDB
+E:\BILL GITHUB\WHTEST\TEST\DEBUG\VC110.PDB
+E:\BILL GITHUB\WHTEST\TEST\DEBUG\58 POJ 2909.OBJ
+E:\BILL GITHUB\WHTEST\TEST\DEBUG\59 类声明固定数组.OBJ
+E:\BILL GITHUB\WHTEST\TEST\DEBUG\61 深复制构造函数MEMCPY.OBJ
+E:\BILL GITHUB\WHTEST\TEST\DEBUG\63 MAP引用删除问题1.OBJ
+E:\BILL GITHUB\WHTEST\TEST\DEBUG\63.OBJ
+E:\BILL GITHUB\WHTEST\TEST\DEBUG\64 包含多重继承.OBJ
+E:\BILL GITHUB\WHTEST\TEST\DEBUG\65 CONST位置.OBJ
+E:\BILL GITHUB\WHTEST\TEST\DEBUG\66 CONST 重载.OBJ
+E:\BILL GITHUB\WHTEST\TEST\DEBUG\68 CONST修饰函数参数返回值.OBJ
+E:\BILL GITHUB\WHTEST\TEST\DEBUG\69 I++.OBJ
+E:\BILL GITHUB\WHTEST\TEST\DEBUG\70 堆排序.OBJ
+E:\BILL GITHUB\WHTEST\TEST\DEBUG\71 指针改变CONST值.OBJ
+E:\BILL GITHUB\WHTEST\TEST\DEBUG\72 MUTABLE.OBJ
+E:\BILL GITHUB\WHTEST\TEST\DEBUG\73 INT I=I.OBJ
+E:\BILL GITHUB\WHTEST\TEST\DEBUG\74 花式赋值看输出.OBJ
+E:\BILL GITHUB\WHTEST\TEST\DEBUG\75 X=X&(X-1).OBJ
+E:\BILL GITHUB\WHTEST\TEST\DEBUG\76 求余运算符.OBJ
+E:\BILL GITHUB\WHTEST\TEST\DEBUG\77 EXPLICIT.OBJ
+E:\BILL GITHUB\WHTEST\TEST\DEBUG\78 修改CONST的值.OBJ
+E:\BILL GITHUB\WHTEST\TEST\DEBUG\79 类的内存对齐.OBJ
+E:\BILL GITHUB\WHTEST\TEST\DEBUG\80 MAIN函数参数.OBJ
 E:\BILL GITHUB\WHTEST\DEBUG\TEST.ILK
 E:\BILL GITHUB\WHTEST\DEBUG\TEST.EXE
 E:\BILL GITHUB\WHTEST\DEBUG\TEST.PDB
-E:\bill github\whTest\test\Debug\52 char 128.obj
-E:\bill github\whTest\test\Debug\53 移位 加解密.obj
-E:\bill github\whTest\test\Debug\54 父类 子类析构.obj
-E:\bill github\whTest\test\Debug\55 引用.obj
-E:\bill github\whTest\test\Debug\56 map空删除.obj
 E:\bill github\whTest\test\Debug\57 poj 2871.obj
+E:\bill github\whTest\test\Debug\58 poj 2909.obj
+E:\bill github\whTest\test\Debug\59 类声明固定数组.obj
+E:\bill github\whTest\test\Debug\61 深复制构造函数memcpy.obj
+E:\bill github\whTest\test\Debug\63 map引用删除问题1.obj
+E:\bill github\whTest\test\Debug\63.obj
+E:\bill github\whTest\test\Debug\64 包含多重继承.obj
+E:\bill github\whTest\test\Debug\65 const位置.obj
+E:\bill github\whTest\test\Debug\66 const 重载.obj
+E:\bill github\whTest\test\Debug\68 const修饰函数参数返回值.obj
+E:\bill github\whTest\test\Debug\69 i++.obj
+E:\bill github\whTest\test\Debug\70 堆排序.obj
+E:\bill github\whTest\test\Debug\71 指针改变const值.obj
+E:\bill github\whTest\test\Debug\72 mutable.obj
+E:\bill github\whTest\test\Debug\73 int i=i.obj
+E:\bill github\whTest\test\Debug\74 花式赋值看输出.obj
+E:\bill github\whTest\test\Debug\75 x=x&(x-1).obj
+E:\bill github\whTest\test\Debug\76 求余运算符.obj
+E:\bill github\whTest\test\Debug\77 explicit.obj
+E:\bill github\whTest\test\Debug\78 修改const的值.obj
+E:\bill github\whTest\test\Debug\79 类的内存对齐.obj
+E:\bill github\whTest\test\Debug\80 main函数参数.obj
 E:\bill github\whTest\test\Debug\cl.command.1.tlog
 E:\bill github\whTest\test\Debug\CL.read.1.tlog
 E:\bill github\whTest\test\Debug\CL.write.1.tlog
@@ -25,30 +53,174 @@ E:\bill github\whTest\test\Debug\link-cvtres.read.1.tlog
 E:\bill github\whTest\test\Debug\link-cvtres.write.1.tlog
 E:\bill github\whTest\test\Debug\link-rc.read.1.tlog
 E:\bill github\whTest\test\Debug\link-rc.write.1.tlog
-E:\bill github\whTest\test\Debug\link.10796-cvtres.read.1.tlog
-E:\bill github\whTest\test\Debug\link.10796-cvtres.write.1.tlog
-E:\bill github\whTest\test\Debug\link.10796-rc.read.1.tlog
-E:\bill github\whTest\test\Debug\link.10796-rc.write.1.tlog
-E:\bill github\whTest\test\Debug\link.10796.read.1.tlog
-E:\bill github\whTest\test\Debug\link.10796.write.1.tlog
-E:\bill github\whTest\test\Debug\link.20288-cvtres.read.1.tlog
-E:\bill github\whTest\test\Debug\link.20288-cvtres.write.1.tlog
-E:\bill github\whTest\test\Debug\link.20288-rc.read.1.tlog
-E:\bill github\whTest\test\Debug\link.20288-rc.write.1.tlog
-E:\bill github\whTest\test\Debug\link.20288.read.1.tlog
-E:\bill github\whTest\test\Debug\link.20288.write.1.tlog
-E:\bill github\whTest\test\Debug\link.59856-cvtres.read.1.tlog
-E:\bill github\whTest\test\Debug\link.59856-cvtres.write.1.tlog
-E:\bill github\whTest\test\Debug\link.59856-rc.read.1.tlog
-E:\bill github\whTest\test\Debug\link.59856-rc.write.1.tlog
-E:\bill github\whTest\test\Debug\link.59856.read.1.tlog
-E:\bill github\whTest\test\Debug\link.59856.write.1.tlog
-E:\bill github\whTest\test\Debug\link.7788-cvtres.read.1.tlog
-E:\bill github\whTest\test\Debug\link.7788-cvtres.write.1.tlog
-E:\bill github\whTest\test\Debug\link.7788-rc.read.1.tlog
-E:\bill github\whTest\test\Debug\link.7788-rc.write.1.tlog
-E:\bill github\whTest\test\Debug\link.7788.read.1.tlog
-E:\bill github\whTest\test\Debug\link.7788.write.1.tlog
+E:\bill github\whTest\test\Debug\link.10584-cvtres.read.1.tlog
+E:\bill github\whTest\test\Debug\link.10584-cvtres.write.1.tlog
+E:\bill github\whTest\test\Debug\link.10584-rc.read.1.tlog
+E:\bill github\whTest\test\Debug\link.10584-rc.write.1.tlog
+E:\bill github\whTest\test\Debug\link.10584.read.1.tlog
+E:\bill github\whTest\test\Debug\link.10584.write.1.tlog
+E:\bill github\whTest\test\Debug\link.10592-cvtres.read.1.tlog
+E:\bill github\whTest\test\Debug\link.10592-cvtres.write.1.tlog
+E:\bill github\whTest\test\Debug\link.10592-rc.read.1.tlog
+E:\bill github\whTest\test\Debug\link.10592-rc.write.1.tlog
+E:\bill github\whTest\test\Debug\link.10592.read.1.tlog
+E:\bill github\whTest\test\Debug\link.10592.write.1.tlog
+E:\bill github\whTest\test\Debug\link.11192-cvtres.read.1.tlog
+E:\bill github\whTest\test\Debug\link.11192-cvtres.write.1.tlog
+E:\bill github\whTest\test\Debug\link.11192-rc.read.1.tlog
+E:\bill github\whTest\test\Debug\link.11192-rc.write.1.tlog
+E:\bill github\whTest\test\Debug\link.11192.read.1.tlog
+E:\bill github\whTest\test\Debug\link.11192.write.1.tlog
+E:\bill github\whTest\test\Debug\link.11252-cvtres.read.1.tlog
+E:\bill github\whTest\test\Debug\link.11252-cvtres.write.1.tlog
+E:\bill github\whTest\test\Debug\link.11252-rc.read.1.tlog
+E:\bill github\whTest\test\Debug\link.11252-rc.write.1.tlog
+E:\bill github\whTest\test\Debug\link.11252.read.1.tlog
+E:\bill github\whTest\test\Debug\link.11252.write.1.tlog
+E:\bill github\whTest\test\Debug\link.11428-cvtres.read.1.tlog
+E:\bill github\whTest\test\Debug\link.11428-cvtres.write.1.tlog
+E:\bill github\whTest\test\Debug\link.11428-rc.read.1.tlog
+E:\bill github\whTest\test\Debug\link.11428-rc.write.1.tlog
+E:\bill github\whTest\test\Debug\link.11428.read.1.tlog
+E:\bill github\whTest\test\Debug\link.11428.write.1.tlog
+E:\bill github\whTest\test\Debug\link.11560-cvtres.read.1.tlog
+E:\bill github\whTest\test\Debug\link.11560-cvtres.write.1.tlog
+E:\bill github\whTest\test\Debug\link.11560-rc.read.1.tlog
+E:\bill github\whTest\test\Debug\link.11560-rc.write.1.tlog
+E:\bill github\whTest\test\Debug\link.11560.read.1.tlog
+E:\bill github\whTest\test\Debug\link.11560.write.1.tlog
+E:\bill github\whTest\test\Debug\link.11916-cvtres.read.1.tlog
+E:\bill github\whTest\test\Debug\link.11916-cvtres.write.1.tlog
+E:\bill github\whTest\test\Debug\link.11916-rc.read.1.tlog
+E:\bill github\whTest\test\Debug\link.11916-rc.write.1.tlog
+E:\bill github\whTest\test\Debug\link.11916.read.1.tlog
+E:\bill github\whTest\test\Debug\link.11916.write.1.tlog
+E:\bill github\whTest\test\Debug\link.12128-cvtres.read.1.tlog
+E:\bill github\whTest\test\Debug\link.12128-cvtres.write.1.tlog
+E:\bill github\whTest\test\Debug\link.12128-rc.read.1.tlog
+E:\bill github\whTest\test\Debug\link.12128-rc.write.1.tlog
+E:\bill github\whTest\test\Debug\link.12128.read.1.tlog
+E:\bill github\whTest\test\Debug\link.12128.write.1.tlog
+E:\bill github\whTest\test\Debug\link.12488-cvtres.read.1.tlog
+E:\bill github\whTest\test\Debug\link.12488-cvtres.write.1.tlog
+E:\bill github\whTest\test\Debug\link.12488-rc.read.1.tlog
+E:\bill github\whTest\test\Debug\link.12488-rc.write.1.tlog
+E:\bill github\whTest\test\Debug\link.12488.read.1.tlog
+E:\bill github\whTest\test\Debug\link.12488.write.1.tlog
+E:\bill github\whTest\test\Debug\link.13300-cvtres.read.1.tlog
+E:\bill github\whTest\test\Debug\link.13300-cvtres.write.1.tlog
+E:\bill github\whTest\test\Debug\link.13300-rc.read.1.tlog
+E:\bill github\whTest\test\Debug\link.13300-rc.write.1.tlog
+E:\bill github\whTest\test\Debug\link.13300.read.1.tlog
+E:\bill github\whTest\test\Debug\link.13300.write.1.tlog
+E:\bill github\whTest\test\Debug\link.13672-cvtres.read.1.tlog
+E:\bill github\whTest\test\Debug\link.13672-cvtres.write.1.tlog
+E:\bill github\whTest\test\Debug\link.13672-rc.read.1.tlog
+E:\bill github\whTest\test\Debug\link.13672-rc.write.1.tlog
+E:\bill github\whTest\test\Debug\link.13672.read.1.tlog
+E:\bill github\whTest\test\Debug\link.13672.write.1.tlog
+E:\bill github\whTest\test\Debug\link.13732-cvtres.read.1.tlog
+E:\bill github\whTest\test\Debug\link.13732-cvtres.write.1.tlog
+E:\bill github\whTest\test\Debug\link.13732-rc.read.1.tlog
+E:\bill github\whTest\test\Debug\link.13732-rc.write.1.tlog
+E:\bill github\whTest\test\Debug\link.13732.read.1.tlog
+E:\bill github\whTest\test\Debug\link.13732.write.1.tlog
+E:\bill github\whTest\test\Debug\link.14552-cvtres.read.1.tlog
+E:\bill github\whTest\test\Debug\link.14552-cvtres.write.1.tlog
+E:\bill github\whTest\test\Debug\link.14552-rc.read.1.tlog
+E:\bill github\whTest\test\Debug\link.14552-rc.write.1.tlog
+E:\bill github\whTest\test\Debug\link.14552.read.1.tlog
+E:\bill github\whTest\test\Debug\link.14552.write.1.tlog
+E:\bill github\whTest\test\Debug\link.15604-cvtres.read.1.tlog
+E:\bill github\whTest\test\Debug\link.15604-cvtres.write.1.tlog
+E:\bill github\whTest\test\Debug\link.15604-rc.read.1.tlog
+E:\bill github\whTest\test\Debug\link.15604-rc.write.1.tlog
+E:\bill github\whTest\test\Debug\link.15604.read.1.tlog
+E:\bill github\whTest\test\Debug\link.15604.write.1.tlog
+E:\bill github\whTest\test\Debug\link.15972-cvtres.read.1.tlog
+E:\bill github\whTest\test\Debug\link.15972-cvtres.write.1.tlog
+E:\bill github\whTest\test\Debug\link.15972-rc.read.1.tlog
+E:\bill github\whTest\test\Debug\link.15972-rc.write.1.tlog
+E:\bill github\whTest\test\Debug\link.15972.read.1.tlog
+E:\bill github\whTest\test\Debug\link.15972.write.1.tlog
+E:\bill github\whTest\test\Debug\link.16020-cvtres.read.1.tlog
+E:\bill github\whTest\test\Debug\link.16020-cvtres.write.1.tlog
+E:\bill github\whTest\test\Debug\link.16020-rc.read.1.tlog
+E:\bill github\whTest\test\Debug\link.16020-rc.write.1.tlog
+E:\bill github\whTest\test\Debug\link.16020.read.1.tlog
+E:\bill github\whTest\test\Debug\link.16020.write.1.tlog
+E:\bill github\whTest\test\Debug\link.17184-cvtres.read.1.tlog
+E:\bill github\whTest\test\Debug\link.17184-cvtres.write.1.tlog
+E:\bill github\whTest\test\Debug\link.17184-rc.read.1.tlog
+E:\bill github\whTest\test\Debug\link.17184-rc.write.1.tlog
+E:\bill github\whTest\test\Debug\link.17184.read.1.tlog
+E:\bill github\whTest\test\Debug\link.17184.write.1.tlog
+E:\bill github\whTest\test\Debug\link.17880-cvtres.read.1.tlog
+E:\bill github\whTest\test\Debug\link.17880-cvtres.write.1.tlog
+E:\bill github\whTest\test\Debug\link.17880-rc.read.1.tlog
+E:\bill github\whTest\test\Debug\link.17880-rc.write.1.tlog
+E:\bill github\whTest\test\Debug\link.17880.read.1.tlog
+E:\bill github\whTest\test\Debug\link.17880.write.1.tlog
+E:\bill github\whTest\test\Debug\link.17960-cvtres.read.1.tlog
+E:\bill github\whTest\test\Debug\link.17960-cvtres.write.1.tlog
+E:\bill github\whTest\test\Debug\link.17960-rc.read.1.tlog
+E:\bill github\whTest\test\Debug\link.17960-rc.write.1.tlog
+E:\bill github\whTest\test\Debug\link.17960.read.1.tlog
+E:\bill github\whTest\test\Debug\link.17960.write.1.tlog
+E:\bill github\whTest\test\Debug\link.18256-cvtres.read.1.tlog
+E:\bill github\whTest\test\Debug\link.18256-cvtres.write.1.tlog
+E:\bill github\whTest\test\Debug\link.18256-rc.read.1.tlog
+E:\bill github\whTest\test\Debug\link.18256-rc.write.1.tlog
+E:\bill github\whTest\test\Debug\link.18256.read.1.tlog
+E:\bill github\whTest\test\Debug\link.18256.write.1.tlog
+E:\bill github\whTest\test\Debug\link.19124-cvtres.read.1.tlog
+E:\bill github\whTest\test\Debug\link.19124-cvtres.write.1.tlog
+E:\bill github\whTest\test\Debug\link.19124-rc.read.1.tlog
+E:\bill github\whTest\test\Debug\link.19124-rc.write.1.tlog
+E:\bill github\whTest\test\Debug\link.19124.read.1.tlog
+E:\bill github\whTest\test\Debug\link.19124.write.1.tlog
+E:\bill github\whTest\test\Debug\link.19260-cvtres.read.1.tlog
+E:\bill github\whTest\test\Debug\link.19260-cvtres.write.1.tlog
+E:\bill github\whTest\test\Debug\link.19260-rc.read.1.tlog
+E:\bill github\whTest\test\Debug\link.19260-rc.write.1.tlog
+E:\bill github\whTest\test\Debug\link.19260.read.1.tlog
+E:\bill github\whTest\test\Debug\link.19260.write.1.tlog
+E:\bill github\whTest\test\Debug\link.20416-cvtres.read.1.tlog
+E:\bill github\whTest\test\Debug\link.20416-cvtres.write.1.tlog
+E:\bill github\whTest\test\Debug\link.20416-rc.read.1.tlog
+E:\bill github\whTest\test\Debug\link.20416-rc.write.1.tlog
+E:\bill github\whTest\test\Debug\link.20416.read.1.tlog
+E:\bill github\whTest\test\Debug\link.20416.write.1.tlog
+E:\bill github\whTest\test\Debug\link.53384-cvtres.read.1.tlog
+E:\bill github\whTest\test\Debug\link.53384-cvtres.write.1.tlog
+E:\bill github\whTest\test\Debug\link.53384-rc.read.1.tlog
+E:\bill github\whTest\test\Debug\link.53384-rc.write.1.tlog
+E:\bill github\whTest\test\Debug\link.53384.read.1.tlog
+E:\bill github\whTest\test\Debug\link.53384.write.1.tlog
+E:\bill github\whTest\test\Debug\link.7568-cvtres.read.1.tlog
+E:\bill github\whTest\test\Debug\link.7568-cvtres.write.1.tlog
+E:\bill github\whTest\test\Debug\link.7568-rc.read.1.tlog
+E:\bill github\whTest\test\Debug\link.7568-rc.write.1.tlog
+E:\bill github\whTest\test\Debug\link.7568.read.1.tlog
+E:\bill github\whTest\test\Debug\link.7568.write.1.tlog
+E:\bill github\whTest\test\Debug\link.8964-cvtres.read.1.tlog
+E:\bill github\whTest\test\Debug\link.8964-cvtres.write.1.tlog
+E:\bill github\whTest\test\Debug\link.8964-rc.read.1.tlog
+E:\bill github\whTest\test\Debug\link.8964-rc.write.1.tlog
+E:\bill github\whTest\test\Debug\link.8964.read.1.tlog
+E:\bill github\whTest\test\Debug\link.8964.write.1.tlog
+E:\bill github\whTest\test\Debug\link.9068-cvtres.read.1.tlog
+E:\bill github\whTest\test\Debug\link.9068-cvtres.write.1.tlog
+E:\bill github\whTest\test\Debug\link.9068-rc.read.1.tlog
+E:\bill github\whTest\test\Debug\link.9068-rc.write.1.tlog
+E:\bill github\whTest\test\Debug\link.9068.read.1.tlog
+E:\bill github\whTest\test\Debug\link.9068.write.1.tlog
+E:\bill github\whTest\test\Debug\link.9420-cvtres.read.1.tlog
+E:\bill github\whTest\test\Debug\link.9420-cvtres.write.1.tlog
+E:\bill github\whTest\test\Debug\link.9420-rc.read.1.tlog
+E:\bill github\whTest\test\Debug\link.9420-rc.write.1.tlog
+E:\bill github\whTest\test\Debug\link.9420.read.1.tlog
+E:\bill github\whTest\test\Debug\link.9420.write.1.tlog
 E:\bill github\whTest\test\Debug\link.command.1.tlog
 E:\bill github\whTest\test\Debug\link.read.1.tlog
 E:\bill github\whTest\test\Debug\link.write.1.tlog

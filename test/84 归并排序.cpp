@@ -25,6 +25,7 @@ void Merge(int A[],long Left,long Middle,long Right)
 	long j=1;
 	for(k=Left;k<=Right;k++)
 	{
+		//如果某一边先抵达哨兵，另一边一定是小于的
 		if(L[i]<=R[j])
 			A[k]=L[i++];
 
@@ -52,6 +53,10 @@ int main()
 	int array[10] = {4,5,7,1,22,33,8,10,23,199};
 
 	Merge_sort(array,0,9);
+
+	for(int i=0;i<10;++i) {
+		cout<<array[i]<<" ";
+	}
 
 	return 0; 
 }

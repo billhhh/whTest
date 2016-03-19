@@ -107,10 +107,38 @@ start:
 			goto start;
 		}
 
+		int resCnt = 0;
+		int visited[12][12] = {0}; //对应的访问数组
 		//暴力解法
-		for (int i=K;i>=0;--i) {
+start2:
+		while (1) {
 
+			int changeFlag = 0;
+			int tmpRes = 0;
+			for (int i=K-1;i>=0;--i) {
 
+				//外层循环控制位数
+				for (int j=0;j<=9;++j) {
+
+					//里层循环控制数字可不可行
+					if ( res[i][j] == 1 && visited[i][j] == 0 ) {
+
+						tmpRes += (j*pow(10,i));
+						changeFlag = 1;
+						visited[i][j] = 1;
+
+						if(tmpRes>=N) {
+							goto start2;
+						}
+
+						tmpRes -= (j*pow(10,i));
+						break;
+					}
+				}
+			}
+
+			if( changeFlag == 0 )
+				break;
 		}
 
 		//system("pause");

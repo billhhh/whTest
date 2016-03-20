@@ -15,7 +15,12 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="96 网易笔试题1.cpp">
+    <Text Include="input.txt">
+      <Filter>源文件</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="98 poj 1125.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

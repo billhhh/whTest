@@ -22,7 +22,8 @@
     <Text Include="input.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="102 if很深continue实验.cpp" />
+    <ClCompile Include="103 extern const.c" />
+    <ClCompile Include="103.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{CF1A10FA-B01D-4DA8-BA7B-CF30375C8A57}</ProjectGuid>

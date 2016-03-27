@@ -20,10 +20,7 @@
     </Text>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="103.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="103 extern const.c">
+    <ClCompile Include="108 虚函数表地址.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

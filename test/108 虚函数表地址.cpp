@@ -48,21 +48,25 @@ int main()
 
 	typedef void(*Fun)(void);
 
-	Base b;
-	Fun bFun = (Fun)*((int*)*(int*)(&b));
-	bFun();
-	bFun = (Fun)*((int*)*(int*)(&b)+1);
-	bFun();
-	cout<<bFun<<endl;
+// 	Base b;
+// 	Fun bFun = (Fun)*((int*)*(int*)(&b));
+// 	bFun();
+// 	bFun = (Fun)*((int*)*(int*)(&b)+1);
+// 	bFun();
+// 	cout<<bFun<<endl;
 
 	Derive d;
 	Fun dFun = (Fun)*((int*)*(int*)(&d));
-	dFun();
-	dFun = (Fun)*((int*)*(int*)(&d)+1);
-	dFun();
-	dFun = (Fun)*((int*)*(int*)(&d)+2);
-	dFun();
-	cout<<dFun<<endl;
+// 	dFun();
+// 	dFun = (Fun)*((int*)*(int*)(&d)+1);
+// 	dFun();
+// 	dFun = (Fun)*((int*)*(int*)(&d)+2);
+// 	dFun();
+ 	cout<<dFun<<endl;
+
+	Derive d2;
+	Fun dFun2 = (Fun)*((int*)*(int*)(&d2));
+	cout<<dFun2<<endl;
 
 	return 0;
 }

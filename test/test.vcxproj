@@ -22,8 +22,7 @@
     <Text Include="input.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="103 extern const.c" />
-    <ClCompile Include="103.c" />
+    <ClCompile Include="108 虚函数表地址.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{CF1A10FA-B01D-4DA8-BA7B-CF30375C8A57}</ProjectGuid>

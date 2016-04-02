@@ -1,18 +1,19 @@
-﻿生成启动时间为 2015/7/23 14:42:09。
-     1>项目“D:\Project\newtest\test\test.vcxproj”在节点 2 上(Build 个目标)。
+﻿生成启动时间为 2016/4/2 19:09:02。
+     1>项目“E:\bill github\whTest\test\test.vcxproj”在节点 2 上(Build 个目标)。
      1>InitializeBuildStatus:
          正在创建“x64\Debug\test.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
        ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc110.pdb" /Gd /TP /errorReport:prompt "28 sizeof.cpp"
-         28 sizeof.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc110.pdb" /Gd /TP /errorReport:prompt "114 内存对齐.cpp"
+         114 内存对齐.cpp
+     1>114 内存对齐.cpp(42): warning C4101: “t”: 未引用的局部变量
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Project\newtest\x64\Debug\test.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Project\newtest\x64\Debug\test.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Project\newtest\x64\Debug\test.lib" /MACHINE:X64 "x64\Debug\28 sizeof.obj"
-         test.vcxproj -> D:\Project\newtest\x64\Debug\test.exe
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\bill github\whTest\x64\Debug\test.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\bill github\whTest\x64\Debug\test.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\bill github\whTest\x64\Debug\test.lib" /MACHINE:X64 "x64\Debug\114 内存对齐.obj"
+         test.vcxproj -> E:\bill github\whTest\x64\Debug\test.exe
        FinalizeBuildStatus:
          正在删除文件“x64\Debug\test.unsuccessfulbuild”。
          正在对“x64\Debug\test.lastbuildstate”执行 Touch 任务。
-     1>已完成生成项目“D:\Project\newtest\test\test.vcxproj”(Build 个目标)的操作。
+     1>已完成生成项目“E:\bill github\whTest\test\test.vcxproj”(Build 个目标)的操作。
 
 生成成功。
 
-已用时间 00:00:00.59
+已用时间 00:00:01.16

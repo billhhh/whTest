@@ -22,7 +22,7 @@
     <Text Include="input.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="116 蛇形数组.cpp" />
+    <ClCompile Include="118 poj 1159 最长回文子串.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{CF1A10FA-B01D-4DA8-BA7B-CF30375C8A57}</ProjectGuid>

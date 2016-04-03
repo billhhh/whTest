@@ -27,25 +27,13 @@ Type stringToNum(const string& str)
 }
 
 //======================================================
-
-struct tmp {
-	int aa;
-	char bb;
-	double cc;
-};
-
-struct TStruct
-{
-	char c;
-	double b;
-	int a;
-	tmp ss;
-};
+#define _intPtr int*
 
 int main()
 {
-	cout << sizeof(tmp) << endl;
-	cout << sizeof(TStruct) << endl;
+	//freopen("input.txt","r",stdin);
+	//typedef int* _intPtr;
+	_intPtr a;
 
 	return 0;
 }

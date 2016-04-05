@@ -30,9 +30,27 @@ Type stringToNum(const string& str)
 
 //======================================================
 
+void Test(int *pc,int arrc[]) {
+	PRINT(sizeof(pc));
+	PRINT(sizeof(arrc));
+
+	PRINT(&pc);
+	PRINT(&arrc);
+
+	PRINT(&pc+1);
+	PRINT(&arrc+1);
+}
+
 int main()
 {
-	freopen("input.txt","r",stdin);
+	//freopen("input.txt","r",stdin);
+
+	int test[10];
+	int a[1];
+	int b;
+	//Test(test,test);
+
+	PRINT(sizeof(test));
 
 	return 0;
 }

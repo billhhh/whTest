@@ -30,9 +30,36 @@ Type stringToNum(const string& str)
 
 //======================================================
 
+#define MAXN 205
+
+int dp[MAXN][MAXN];
+
+int whLCS(char s1[],int len1,char s2[],int len2) {
+
+	for(int i=1;i<=len1;++i) {
+
+		for (int j=1;j<=len2;++j) {
+
+			if(s1[i-1]==s2[j-1])
+				dp[i][j]=dp[i-1][j-1]+1;
+			else
+				dp[i][j]=max(dp[i-1][j],dp[i][j-1]);
+		}
+	}
+	return dp[len1][len2];
+}
+
 int main()
 {
 	freopen("input.txt","r",stdin);
+
+	char s1[MAXN],s2[MAXN];
+
+	while (scanf("%s %s",s1,s2)!=EOF) {
+		
+		int res = whLCS(s1,strlen(s1),s2,strlen(s2));
+		PRINT(res);
+	}
 
 	return 0;
 }

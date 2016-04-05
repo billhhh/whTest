@@ -32,7 +32,11 @@ Type stringToNum(const string& str)
 
 int main()
 {
-	freopen("input.txt","r",stdin);
+	//freopen("input.txt","r",stdin);
+
+	char s[]="123456\0";
+	PRINT(sizeof(s));
+	PRINT(s);
 
 	return 0;
 }

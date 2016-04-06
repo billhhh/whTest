@@ -1,3 +1,5 @@
+//Memory: 43376K		Time: 844MS
+
 #include <iostream>
 #include <stdio.h>
 #include <cstring>
@@ -30,46 +32,56 @@ Type stringToNum(const string& str)
 
 //======================================================
 
-#define MAXN 10000005
+#define MAXN 10000002
 
 int P[MAXN];
+char s[2*MAXN+2];
 
 int Manacher(string tmp) {
 
 	memset(P,0,sizeof(P));
 
-	string s;
 	int len=tmp.size();
-	s="";
 	
-	for(int i=0;i<len;i++){
-		s+="#";s+=tmp[i];
+	int k;
+	for(k=0;k<len;k++){
+		s[2*k] = '#';
+		s[2*k+1] = tmp[k];
 	}
-	s+='#';
+	s[2*k] = '#';
+	s[2*k+1] = '\0';
 
 	//算法核心
-	len=len*2+1;
-	int mx = 0;
-	int id=0;
-	for (int i=1;i<len;++i) {
-		if( mx>i )
+	len=strlen(s);
+	int mx = 0; //mx 记在i之前的回文串中，延伸至最右端的位置
+	int id=0; //id 记下取得这个最优mx时的 坐标值
+	for (int i=0;i<len;++i) {
+
+		if( i < mx ) //在当前最优边界左边
 			P[i] = min(P[2*id-i],mx-i);
 		else
 			P[i]=1;
-		for (;s[i+P[i]] == s[i-P[i]];P[i]++);
 
-		if( P[i]+i > mx ) {
-			mx = P[i] + i;
-			id = i;
+		for (;s[i-P[i]] == s[i+P[i]] && s[i-P[i]] != '\0' && s[i+P[i]] != '\0' ; ) //对于超出mx或者P[j]边界的计算
+			P[i]++;
+
+		if( P[i]+i > mx ) { //当前最佳情况，update mx和id
+			mx = P[i] + i; //最右端情况
+			id = i; //记下坐标
 		}
 	}
 
-	return ;
+	int res = 0;
+	for (int i=0;i<len;++i) {
+		res = max(res,P[i]);
+	}
+
+	return res-1;
 }
 
 int main()
 {
-	freopen("input.txt","r",stdin);
+	//freopen("input.txt","r",stdin);
 
 	string tmp;
 	int T=0,res;
@@ -81,6 +93,8 @@ int main()
 		cout<<"Case "<<++T<<": ";
 
 		int res = Manacher(tmp);
+
+		PRINT(res);
 	}
 
 	return 0;

@@ -58,9 +58,9 @@ int Manacher(string tmp) {
 	for (int i=0;i<len;++i) {
 
 		if( i < mx ) //在当前最优边界左边
-			P[i] = min(P[2*id-i],mx-i);
+			P[i] = min(P[2*id-i],mx-i); //算出对称初始值
 		else
-			P[i]=1;
+			P[i]=1; //如果超出mx边界，P[i]初始值为1
 
 		for (;s[i-P[i]] == s[i+P[i]] && s[i-P[i]] != '\0' && s[i+P[i]] != '\0' ; ) //对于超出mx或者P[j]边界的计算
 			P[i]++;

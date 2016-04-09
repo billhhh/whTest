@@ -22,7 +22,7 @@
     <Text Include="input.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="125 微软实习招聘 2 - 数字.cpp" />
+    <ClCompile Include="129 京东实习笔试2 - cmp.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{CF1A10FA-B01D-4DA8-BA7B-CF30375C8A57}</ProjectGuid>

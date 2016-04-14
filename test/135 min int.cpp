@@ -36,12 +36,12 @@ int main()
 
 	int a = INF;
 
-	int maxInt = 0x7fffffff;
+	int maxInt = 0x7fffffff; //最大int
 
-	int minInt = 0xffffffff;
-	int minInt2 = 0x80000000;
+	int minusOne = 0xffffffff; //-1s
+	int minInt = 0x80000000; //最小int
 
-	int test = 0x80000001; //补码
+	int minusMaxInt = 0x80000001; //-maxInt
 
 	return 0;
 }

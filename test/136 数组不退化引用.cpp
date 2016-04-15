@@ -31,6 +31,7 @@ Type stringToNum(const string& str)
 //======================================================
 
 void func(int (&b) [20][10]) {
+	PRINT(sizeof(b));
 	PRINT(b[20][1000]);
 }
 
@@ -52,13 +53,19 @@ void func2(int a[5]) {
 
 int main()
 {
+
 	//freopen("input.txt","r",stdin);
+	int tmp1,tmp2,tmp3,tmp4;
+	int arr[5];
+	int tmp5,tmp6,tmp7,tmp8;
+
+	for (int i=0;i<100;++i)	{
+		arr[i] = 666;
+	}
+
 
 	int a[20][10];
-
-	a[2][1] = 5;
-
-	a[22][12] = 5;
+	a[20][10] = 5;
 	cout<<a[22][12]<<endl;
 
 	func(a);

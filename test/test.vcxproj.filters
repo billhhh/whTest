@@ -20,7 +20,7 @@
     </Text>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="140 编程之美 题2.cpp">
+    <ClCompile Include="141 remove_copy_if.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

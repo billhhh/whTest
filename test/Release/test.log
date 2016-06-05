@@ -1,12 +1,12 @@
-﻿生成启动时间为 2016/5/19 7:39:13。
+﻿生成启动时间为 2016/6/5 18:18:23。
      1>项目“E:\bill github\whTest\test\test.vcxproj”在节点 2 上(Build 个目标)。
      1>InitializeBuildStatus:
          正在创建“Release\test.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
        ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt "147 B+C string.cpp"
-         147 B+C string.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt "148 单例模式.cpp"
+         148 单例模式.cpp
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\bill github\whTest\Release\test.exe" /INCREMENTAL:NO /NOLOGO pthreadVC2.lib pthreadVSE2.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\bill github\whTest\Release\test.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\bill github\whTest\Release\test.lib" /MACHINE:X86 /SAFESEH "Release\147 B+C string.obj"
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\bill github\whTest\Release\test.exe" /INCREMENTAL:NO /NOLOGO pthreadVC2.lib pthreadVSE2.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\bill github\whTest\Release\test.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\bill github\whTest\Release\test.lib" /MACHINE:X86 /SAFESEH "Release\148 单例模式.obj"
          正在生成代码
          已完成代码的生成
          test.vcxproj -> E:\bill github\whTest\Release\test.exe
@@ -17,4 +17,4 @@
 
 生成成功。
 
-已用时间 00:00:01.91
+已用时间 00:00:00.89

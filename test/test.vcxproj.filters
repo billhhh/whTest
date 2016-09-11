@@ -15,12 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="input.txt">
-      <Filter>源文件</Filter>
-    </Text>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="148 单例模式.cpp">
+    <ClCompile Include="150 腾讯笔试题1：二分法经纬度.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

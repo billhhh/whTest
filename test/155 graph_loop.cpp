@@ -52,8 +52,10 @@ void DFS(int node) {
 		for (int i = 1; i <= 7; i++) {
 			if (graph_map[process_node][i] == 1 && !visit[i]) {
 				//if in the stack already, so there is a loop
-				if (inStack[i])
+				if (inStack[i]) {
 					loop_cnt++;
+					continue;
+				}
 
 				//or push it into the stack
 				s.push(i);

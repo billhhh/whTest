@@ -57,7 +57,7 @@ int main()
 			arr_positive[pos_cnt++] = arr[i];
 	}
 
-	// for triplate
+	// for triplets
 	int tri_count = 0;
 	int res;
 	for (int i = 0; i < pos_cnt; i++)
